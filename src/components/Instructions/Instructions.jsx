@@ -4,7 +4,7 @@ import "./Instructions.css"
 export function Instructions(props) {
   return (
     <aside className="instructions">
-      <p></p>
+      <p>{props.instructions.start} {props.instructions.onlyCategory} {props.instructions.noSelectedItem} {props.instructions.allSelected}</p>
     </aside>
   )
 }
